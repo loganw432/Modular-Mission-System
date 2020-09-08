@@ -1,0 +1,27 @@
+This just lists shit that needs to be done before it can be finished.
+Seems like this list only gets longer...
+
+-Core Functions ()
+	- Mission loading and processing
+	- Mission Selection
+	- Main HQ design and functionality
+	- Virtual Garage
+	- Arsenal Support (Limited)
+	- 
+
+-Additional Functions
+	- Persistent loadout after leaving
+	- Upgrade system
+		- AI Mortar Training,
+		- AI Sniper Training,
+		- Looting efficiency, (50% Base, 75% and 100% upgradable)
+	- AI artillery support (Once aquired, limited use)
+		- Ammo must be aquired from missions,
+		- Proximity to enemy locations decreases max rounds fired before triangulation,
+		- Max rounds dictated by ammo available and detection math for balance.
+	- Purchaseable per mission upgrades or assets
+		- Gang assistance for police
+		- Rebel assistance for military
+		- Advanced Intel (find some way to give players extra intel if possible)
+		- Per mission dependant assets of use. (Roadblock, explosives, etc)
+	
