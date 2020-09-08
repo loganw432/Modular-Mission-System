@@ -28,8 +28,9 @@ _missionsData 	= [
 ];
 _i = 0;
 {
-	_var = [getMarkerPos "_x", startWalk, "Walking in", "Units will enter the area without a vehicle and will remain undetected.","","",1,[]];
+	_var = [getMarkerPos _x, startWalk, "Walking in", "Units will enter the area without a vehicle and will remain undetected.","","",1,[]];
   _missionsData set [_i, _var];
+  i = i + 1;
 } forEach _mkrarywalk;
 //////////////////////////////////////////
 

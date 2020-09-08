@@ -1,0 +1,26 @@
+class CfgFunctions
+{
+	class WF
+	{
+		class BaseFunctions
+		{
+			file = "functions";
+			class myFunction {};
+		};
+	};
+};
+
+class CfgRemoteExec
+{
+	// List of script functions allowed to be sent from client via remoteExec
+	class Functions
+	{
+		mode = 2;
+		jip = 1;
+		class BIS_fnc_debugConsoleExec { allowedTargets = 0;jip = 1; };
+		class SpawnScript { allowedTargets = 0;jip = 1; };
+		class enableSimulationGlobal { allowedTargets = 0;jip = 1; };
+	};
+};
+
+cba_settings_hasSettingsFile = 1;

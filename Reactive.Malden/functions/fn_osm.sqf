@@ -1,9 +1,11 @@
+osm = {
+params ["_unit", "_target"];
 startWalking =
 {
 //Start mission
 
 //Spawn mission
- "templates/convoy.sqf";
+null = [_unit] execVm  "templates/convoy.sqf";
 
 //Open secondary map
 "functions/omm.sqf";
@@ -54,3 +56,5 @@ _isNight,
 _scale,
 _simul
 ] call Bis_fnc_strategicMapOpen;
+
+};
