@@ -1,0 +1,10 @@
+Mission Structure, For Builders
+Mission elements are created dynamically on load by markers placed during the building phase, below are the various markers to dictate how and where things happen.
+- Multiple drop off sites to the AO may be defined with predefined requirements:
+	- "Pickup" Helicopter Drop off site (Only an option when helicopter is owned by group)
+	- "hd_pickup" Vehicle Drop off site (Only an option when a vehicle is owned)
+	- "Start" Walking Drop off site (Always an option, provide at least 3)
+- Mission objectives can be:
+	- "Destroy" Destroy Object 
+	- "Flag" Capture Area
+	- 
